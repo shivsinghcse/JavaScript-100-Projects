@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-decoration: underline;
+    color: dodgerblue;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.main{
+    box-shadow: 0 0 10px #bdb9b9;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    min-width: 40%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.btns{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inc-btn, .dec-btn, .reset-btn{
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    border: none;
+    color: #fff;
+    background-color: dodgerblue;
+    border-radius: 0.4rem;
+}
+
+.inc-btn:hover, .dec-btn:hover, .reset-btn:hover{
+    cursor: pointer;
+    background-color: rgb(13, 84, 155);
+    transition: 0.5s ease;
+}
+
+
+.count{
+    font-size: 5rem;
+}
