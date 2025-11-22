@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+}
+
+#btn{
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    box-shadow: 5px 10px 40px #ccc;
+    cursor: pointer;
+}
